@@ -1,8 +1,5 @@
-compile: main.c 
-	 gcc main.c -o ming
+phu: main.c
+	gcc main.c -o phu
 
-run: ming
-	 ./ming
-
-clean: ming
-	 rm ming
+run: phu
+	./phu
