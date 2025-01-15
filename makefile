@@ -1,5 +1,9 @@
+DEST = phu
 compile: main.c
-	gcc main.c -o phu
+	gcc main.c -o $(DEST)
 
-run: phu
-	./phu
+run: compile
+	./$(DEST)
+
+clean:
+	rm -f $(DEST)
