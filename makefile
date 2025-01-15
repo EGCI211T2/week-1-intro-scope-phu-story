@@ -1,4 +1,4 @@
-phu: main.c
+compile: main.c
 	gcc main.c -o phu
 
 run: phu
